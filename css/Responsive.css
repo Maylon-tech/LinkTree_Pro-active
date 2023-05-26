@@ -1,0 +1,111 @@
+@media (max-width: 1580px){
+    .conteudo {
+        width: 100%;
+    }
+    .conteudo li {
+        width: 700px;
+        padding: .8rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .header h2 {
+        font-size: 1.1rem;
+    }
+
+    .conteudo li {
+        width: 600px;
+        padding: .8rem;
+        margin-top: 2rem;
+    }
+    .conteudo a {
+        font-size: 1.3rem;
+    }
+    .conteudo a span {
+        margin-top: .4rem;
+        font-size: 1rem;
+    }
+}
+
+
+/* @media (max-width: 768px) {
+    .container {
+        border: 3px solid blueviolet;
+    }
+    .header {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .header h2 {
+        font-size: 1.1rem;
+    }
+    .conteudo {
+        width: 100%;
+        border: 3px solid orangered;
+    }
+    .conteudo .content {
+        width: 70%;
+    }
+    .conteudo li {
+        padding: .8rem;
+        margin-top: 2rem;
+    }
+    .conteudo a {
+        font-size: 1.2rem;
+    }
+    .conteudo a span {
+        margin-top: .4rem;
+        font-size: 1.1rem;
+    }
+} */
+
+
+@media (max-width: 425px) {
+    /* body {
+        background-image:linear-gradient(to right, rgba(0,0,0, .6), rgba(0,0,0, .7)), url("/img/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        transition: all .4s ease;
+    } */
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .header h2 {
+        font-size: 1rem;
+    }
+
+    .conteudo {
+        width: 100%;
+
+    }
+
+    .conteudo .content {
+        width: 100%;
+    }
+    .conteudo li {
+        padding: .8rem;
+        margin-top: 2rem;
+        max-width: 330px;
+        margin: 2rem auto;
+    }
+    .conteudo a {
+        font-size: 1.2rem;
+    }
+    .conteudo a span {
+        margin-top: .4rem;
+        font-size: 1.1rem;
+    }
+}
+
+
+
